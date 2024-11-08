@@ -327,7 +327,7 @@ def create_map_html(wfs_url):
                 console.error('Error loading WFS data:', error);
                 document.getElementById('loading').innerHTML = 'Error loading map data';
               }});
-          }}, 2000); // 2 second delay
+          }}, 1200); // 1.2 second delay
 
           map.on('click', function(event) {{
             var coord = event.coordinate;
