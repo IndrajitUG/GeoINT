@@ -350,7 +350,7 @@ try:
 except:
     pass
 
-st.title("GeoInt Analysis Dashboard")
+st.title("GeoINT Generative AI Analysis Dashboard")
 
 # Initialize session state
 if 'generated_url' not in st.session_state:
